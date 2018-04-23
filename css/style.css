@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'brandon_textbold';
+    src: url('hvd_fonts_-_brandontext-bold-webfont.woff2') format('woff2'),
+         url('hvd_fonts_-_brandontext-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: white;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    
+
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'Brandon Text';
+    font-weight: bold;
+    text-align: center;
+}
+
+li a.active {
+    color: black;
+    font-family: 'Brandon Text';
+    font-weight: bolder;
+    background-color: #F9F9F9;
+}
+
+li a:hover:not(.active) {
+    background-color: #F9F9F9;
+    color: black;
+    font-family: 'Brandon Text';
+    font-weight: bold;
+}
+
+.body {
+    float: right;
+    margin-left: 450px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.body img {
+    max-width: 530px;
+    max-height: 250px;
+}
+
+.p {
+    text-align: justify;
+    font-family: 'Times New Roman';
+    font-weight: 12px;
+    margin-top: -10px;
+    line-height: normal;
+}
+
+.logo {
+    margin-left: 15px;
+    border: white;
+    margin-top: 50px;
+    margin-bottom: -20px;
+    max-width: 340px;
+}
+.main {
+    font-family: 'Brandon Text';
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    margin-top: 20px;
+
+}
+
+.info {
+    font-family: 'Brandon Text';
+    font-weight: lighter;
+    margin-right: 10px;
+    font-size: 12px;
+    text-align: center;
+    line-height: normal;
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+
+.more a {
+    font-family: 'Brandon Text';
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+}
+
+.date {
+    font-family: 'Brandon Text';
+    font-weight: lighter;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.date strong {
+    font-weight: bold;
+}
+.footer {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Brandon Text'; 
+    font-weight: lighter;
+    margin-left: 380px;
+    color:black;
+}
